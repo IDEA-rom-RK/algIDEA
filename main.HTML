@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Задание</title>
+        <meta name="description" content="Пример задания">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script defer src="./test.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="header-nav">
+                <img src="https://cdn.discordapp.com/attachments/1404896437375991968/1489925187993473166/331d225ff7094c3c.png?ex=69f671b6&is=69f52036&hm=3c613e3e0efcce9e9479cce02ef8aa03995aa83a714d892fa2ecd71004deee46&" alt="Логотип" width="95">
+                <div class="menu">
+                    <a href="#why-us">Почему мы а не другие</a>
+                    <a href="#process">Процесс работы</a>
+                    <a href="#works">Наши работы</a>
+                    <a href="#order">Заказать наши услуги</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+
+            <hr>
+
+            <div id = "slider">
+                <div class = "slide-img" style="background-image: url(https://images.nationalgeographic.org/image/upload/v1638882786/EducationHub/photos/sun-blasts-a-m66-flare.jpg)">
+                    <span>Ala</span>
+                </div>
+                <div class = "slide-img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_CVV0Fs18ze2dbWxiG8quxp5xV2I-8HPJTg&s)">
+                    <span>Ala</span>
+                </div>
+                <div class = "slide-img" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt4sSZFyZVt_sPs8ePMk2T3L9ykMrqtAW8pA&s)">
+                    <span>Ala</span>
+                </div>
+            </div>
+            <hr>
+
+            <section id="why-us">
+                <h2>Почему мы, а не другие</h2>
+                <p>Наши плюсы: ... ну их пока нет, но думаю скоро будут (наверное)</p>
+            </section>
+
+            <hr> 
+
+            <section id="process">
+                <h2>Процесс работы</h2>
+                <ul>
+                    <li>Обсуждение идеи</li>
+                    <li>Состовление плана</li>
+                    <li>Итоговые работы</li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <section id="works">
+                <h2>Наши работы</h2>
+                <div class="portfolio-grid">
+                    <ul>
+                        <li>Ничего</li>
+                        <li>Классное Ничего</li>
+                        <li>Ничего с ничего</li>
+                </ul>
+                </div>
+            </section>
+
+            <hr>
+
+            <section id="order">
+                <h2>Заказать наши услуги</h2>
+                <form>
+                    <label for="formName">
+                        <span id='nameMessage'></span>
+                        <input id='formName' type='text' placeholder="What's your name?">
+                    </label>
+                    <label for="formPhone">
+                        <span id='phoneMessage'></span>
+                        <input id='formPhone' type='text' placeholder="What's your phone?">
+                    </label>
+                    <label for="formWishes">
+                        <span id='wishesMessage'></span>
+                        <input id='formWishes' type='text' placeholder="What's your wishes?">
+                    </label>
+                    <label for='formAgreement'>
+                        <span id='agreementMessage'></span>
+                        <input id='formAgreement' type='checkbox' checked>
+                        I agree to the use of my personal data
+                    </label>
+                    <button id='formButton'>SEND</button>
+                </form>    
+                <p>Данные для связи с нашим менеджером: 88005553535</p>
+            </section>
+
+            <hr>
+
+            <section id='timer'>
+                <div class="timer-display">
+                    <h2>До конца света осталось:</h2>
+                    <span id="days">0</span> дн.
+                    <span id="hours">0</span> ч.
+                    <span id="minutes">00</span> мин.
+                    <span id="seconds">00</span> сек.
+                </div>
+            </section>
+
+            <hr>
+            
+        </main>
+        <footer>
+            <p>made by idea</p>
+        </footer>
+    </body>
+</html>
